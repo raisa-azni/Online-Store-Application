@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessProfile">
+
+    <TextView
+        android:id="@+id/showMailBPTextView"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:text="showing email"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toEndOf="@+id/emailBPTextView"
+        app:layout_constraintTop_toBottomOf="@+id/showIdBPTextView"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/showGenderBPTextView"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="showing gender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toEndOf="@+id/genderBPTextView"
+        app:layout_constraintTop_toBottomOf="@+id/showIdBPTextView"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <TextView
+        android:id="@+id/showLocationBPTextView"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:text="showing location"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toEndOf="@+id/locationBPTextView"
+        app:layout_constraintTop_toBottomOf="@+id/showIdBPTextView"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <TextView
+        android:id="@+id/showPhnBPTextView"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="showing phone no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toEndOf="@+id/phnBPTextView"
+        app:layout_constraintTop_toBottomOf="@+id/showIdBPTextView"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/showNameBPTextView"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="showing Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toEndOf="@+id/nameBPTextView"
+        app:layout_constraintTop_toBottomOf="@+id/showIdBPTextView"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/userIdBPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Id:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/nameBPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIdBPTextView"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/emailBPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIdBPTextView"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/genderBPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIdBPTextView"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <TextView
+        android:id="@+id/locationBPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.185"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIdBPTextView"
+        app:layout_constraintVertical_bias="0.338" />
+
+    <TextView
+        android:id="@+id/phnBPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone No:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userIdBPTextView"
+        app:layout_constraintVertical_bias="0.423" />
+
+    <TextView
+        android:id="@+id/showIdBPTextView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="user ID"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toEndOf="@+id/userIdBPTextView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <ProgressBar
+        android:id="@+id/profileBPProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.409" />
+</androidx.constraintlayout.widget.ConstraintLayout>

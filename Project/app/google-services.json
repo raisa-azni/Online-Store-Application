@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "52012740161",
+    "firebase_url": "https://application-cbbb1.firebaseio.com",
+    "project_id": "application-cbbb1",
+    "storage_bucket": "application-cbbb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52012740161:android:9d6267c7cd4e631f",
+        "android_client_info": {
+          "package_name": "edu.northsouth.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52012740161-7dicrv4dvg70a2g2u19sgrb0up9hsces.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.northsouth.application",
+            "certificate_hash": "394635891cb7ca807b88165fe9b7316a5f4fa1a7"
+          }
+        },
+        {
+          "client_id": "52012740161-e7h199t6d8asu5k34ciaf28n3oirbf0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.northsouth.application",
+            "certificate_hash": "0b04cdde01d78615d6d8cad99c4cf603702783d2"
+          }
+        },
+        {
+          "client_id": "52012740161-ki0f6rs7faevh3ae52t8nap8s0tkcbc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXWFsWrXNjqzfq8siNVwdqx-qIUS__0cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52012740161-ki0f6rs7faevh3ae52t8nap8s0tkcbc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
